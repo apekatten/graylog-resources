@@ -7,4 +7,6 @@ Requires the GROK pattern "DATE_YMD" as listed below
 
 ## GROK Pattern
 DATE_YMD
-    %{YEAR}[./-]%{MONTHNUM}[./-]%{MONTHDAY}
+```
+%{YEAR}[./-]%{MONTHNUM}[./-]%{MONTHDAY}
+```
