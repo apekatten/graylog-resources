@@ -6,7 +6,7 @@ Extractor to parse Cyberoam Firewall syslogs. Based on official documentation (h
 Requires the GROK pattern "DATE_YMD" as listed below
 
 ## GROK Pattern
-DATE_YMD
-```
-%{YEAR}[./-]%{MONTHNUM}[./-]%{MONTHDAY}
-```
+
+Name | Pattern
+------------ | -------------
+DATE_YMD | %{YEAR}[./-]%{MONTHNUM}[./-]%{MONTHDAY}
